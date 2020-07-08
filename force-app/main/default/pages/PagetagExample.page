@@ -1,0 +1,34 @@
+<apex:page >
+<apex:form >
+  <apex:pageBlock title="First Block">
+  
+      <apex:pageBlockSection title="First section">
+          <apex:pageBlockSectionItem >   SF Admin      </apex:pageBlockSectionItem>
+          <apex:pageBlockSectionItem >   SF Developer  </apex:pageBlockSectionItem>
+          <apex:pageBlockSectionItem >   SF consultant </apex:pageBlockSectionItem>
+      </apex:pageBlockSection>
+      
+      <apex:pageBlockSection title="Second section">
+           <apex:pageBlockSectionItem > SF1 </apex:pageBlockSectionItem>
+          <apex:pageBlockSectionItem >  SF2 </apex:pageBlockSectionItem>   
+      </apex:pageBlockSection>
+      
+       <apex:pageBlockButtons >
+           <apex:commandButton value="Save"/>
+           <apex:commandButton value="Cancel"/>
+       </apex:pageBlockButtons>
+       
+  </apex:pageBlock>
+  
+  <apex:pageBlock title="Second Block">
+  
+      <apex:pageBlockSection title="First section">
+           <apex:pageBlockSectionItem > vF1 </apex:pageBlockSectionItem>
+          <apex:pageBlockSectionItem >  vF2 </apex:pageBlockSectionItem>   
+      </apex:pageBlockSection>
+      
+  </apex:pageBlock>
+  
+  
+  </apex:form>
+</apex:page>
