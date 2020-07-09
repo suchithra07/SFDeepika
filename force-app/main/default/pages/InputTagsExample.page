@@ -5,8 +5,9 @@
         Enter Name: <apex:inputText id="Name"/><br/><br/>
         Enter Age: <apex:inputText id="Age"/><br/><br/>
         Set a Username: <apex:inputText id="username"/><br/><br/>
-        Cover Letter:
-        
+        Cover Letter: <apex:inputTextarea id="coverLetter"/><br/><br/>
+        Are you Employed Currently? <apex:inputCheckbox id="employed"/><br/><br/>
+        <apex:commandButton value="Save"/>
 
     
 
