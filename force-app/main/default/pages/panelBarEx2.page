@@ -1,0 +1,7 @@
+<apex:page>
+    <apex:panelBar>
+        <apex:panelBarItem label="Item1" onenter="alert('Entering item1');" onleave="alert('Leaving Item1');">salesforce</apex:panelBarItem>
+        <apex:panelBarItem label="Item2" onenter="alert('Entering item2');" onleave="alert('Leaving Item2');">https://login.salesforce.com/</apex:panelBarItem>
+
+    </apex:panelBar>
+</apex:page>

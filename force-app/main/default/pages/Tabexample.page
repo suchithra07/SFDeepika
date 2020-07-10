@@ -1,0 +1,9 @@
+<apex:page id="thepage">
+    <apex:tabPanel switchType="client">
+        <apex:tab label="Mathematics" name=" maths" id="tab1"> Geometry </apex:tab>
+        <apex:tab label="Generalscience" name="science" id="tab2"> Biology </apex:tab>
+
+
+    </apex:tabPanel>
+
+</apex:page>
